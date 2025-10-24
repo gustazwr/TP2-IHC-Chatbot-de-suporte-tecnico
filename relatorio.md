@@ -69,7 +69,7 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 | **Naive Bayes** | 100.0 | 0.00 | Classificou bem, mas confundiu algumas instâncias entre *Regular* e *Boa*. |
 | **IBk (k-NN)** | 100.0 | 0.01 | Desempenho estável; resultados próximos ao J48. |
 | **OneR** | 100.0 | 0.01 | Modelo simples baseado em um único atributo; menor precisão. |
-| **ZeroR** | 27.9 | 0.01 | Usado como baseline; sempre escolhe a classe mais frequente. |
+| **ZeroR** | 27.907 | 0.00 | Usado como baseline; sempre escolhe a classe mais frequente. |
 
 **Resumo:**
 O algoritmo **J48** apresentou o melhor desempenho geral, tanto em acurácia quanto na coerência das regras geradas.  
