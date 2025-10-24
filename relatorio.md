@@ -1,4 +1,4 @@
-# ETAPA 1 — Definição do Problema
+# Definição do Problema
 
 ## Contexto
 O problema a ser resolvido envolve a **avaliação da comunicabilidade** de um **chatbot de suporte técnico**.  
@@ -17,14 +17,14 @@ O objetivo é classificar o desempenho do chatbot com base em métricas que refl
   - **Regular**
   - **Ruim**
 
-# ETAPA 2 — Regras de Classificação
+# Regras de Classificação
 As classes de comunicabilidade são determinadas com base nas seguintes regras:
 
 - **Boa** → `respostas_incorretas ≤ 2` **e** `avaliacao_usuario ≥ 4` **e** `tempo_resposta ≤ 3`
 - **Regular** → `respostas_incorretas ≤ 4` **ou** `avaliacao_usuario = 3`
 - **Ruim** → `respostas_incorretas > 4` **ou** `avaliacao_usuario ≤ 2`
 
-## Descrição da Base Sintética
+# Descrição da Base Sintética
 
 A base de dados utilizada neste estudo foi **gerada de forma sintética** com o objetivo de simular interações de usuários e permitir a avaliação de algoritmos de classificação sem depender de dados reais. Ela contém **200 instâncias** e os seguintes atributos:
 
@@ -40,7 +40,7 @@ A base de dados utilizada neste estudo foi **gerada de forma sintética** com o 
 - Facilita a geração de situações específicas, como interações com diferentes níveis de erro, tempo de resposta e avaliação, possibilitando analisar o comportamento dos algoritmos em diversas condições.
 - Serve como base inicial para futuros experimentos com dados reais, podendo ser refinada ou ajustada conforme necessidade.
 
-# ETAPA 4 — Descrição dos Experimentos no Weka
+# Descrição dos Experimentos no Weka
 Foi utilizada a aba **Visualize** do Weka para explorar visualmente as relações entre os atributos e a classe-alvo. Os principais cruzamentos analisados foram:
 - Comunicabilidade × Respostas incorretas
 - Comunicabilidade × Tempo de resposta
@@ -72,7 +72,7 @@ Atributos repetidos não foram considerados relevantes para esta análise.
 **Síntese:**  
 Os atributos **respostas_incorretas**, **tempo_resposta** e **avaliacao_usuario** são os mais relevantes para distinguir os diferentes níveis de comunicabilidade, reforçando as regras definidas na geração da base de dados.
 
-# Etapa 5 — Resultados Obtidos
+# Resultados Obtidos
 
 Após a execução dos experimentos no Weka utilizando a base de dados `Suporte_Tecnico_Chatbot.arff`, foram testados cinco algoritmos de classificação.  
 Os testes seguiram a metodologia de **Hold-Out**, com **66% das instâncias para treino** e **34% para teste**.
@@ -97,7 +97,7 @@ Os modelos **OneR** e **ZeroR** serviram de referência comparativa, confirmando
 
 ---
 
-# ETAPA 6 — Análise Crítica dos Resultados em Relação ao Domínio de IHC
+# Análise Crítica dos Resultados em Relação ao Domínio de IHC
 A análise visual e os resultados obtidos evidenciam que erros frequentes, longos tempos de resposta e avaliações baixas estão associados a uma experiência de comunicação ruim, o que é coerente com o domínio de Interação Humano-Computador (IHC).  
 A compreensão desses padrões permite criar sistemas mais responsivos e intuitivos, além de fornecer feedbacks relevantes para melhoria da experiência do usuário.
 
