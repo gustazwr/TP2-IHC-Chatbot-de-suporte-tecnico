@@ -56,8 +56,6 @@ Atributos repetidos não foram considerados relevantes para esta análise.
 **Síntese:**  
 Os atributos **respostas_incorretas**, **tempo_resposta** e **avaliacao_usuario** são os mais relevantes para distinguir os diferentes níveis de comunicabilidade, reforçando as regras definidas na geração da base de dados.
 
----
-
 # Etapa 5 — Resultados Obtidos
 
 Após a execução dos experimentos no Weka utilizando a base de dados `Suporte_Tecnico_Chatbot.arff`, foram testados cinco algoritmos de classificação.  
