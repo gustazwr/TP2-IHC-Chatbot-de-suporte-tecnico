@@ -17,17 +17,51 @@ O objetivo é classificar o desempenho do chatbot com base em métricas que refl
   - **Regular**
   - **Ruim**
 
-## Regras de Classificação
+# ETAPA 2 — Regras de Classificação
 As classes de comunicabilidade são determinadas com base nas seguintes regras:
 
 - **Boa** → `respostas_incorretas ≤ 2` **e** `avaliacao_usuario ≥ 4` **e** `tempo_resposta ≤ 3`
 - **Regular** → `respostas_incorretas ≤ 4` **ou** `avaliacao_usuario = 3`
 - **Ruim** → `respostas_incorretas > 4` **ou** `avaliacao_usuario ≤ 2`
 
-## 5. Resultados Obtidos
+# ETAPA 4 — Descrição dos Experimentos no Weka
+Foi utilizada a aba **Visualize** do Weka para explorar visualmente as relações entre os atributos e a classe-alvo. Os principais cruzamentos analisados foram:
+- Comunicabilidade × Respostas incorretas
+- Comunicabilidade × Tempo de resposta
+- Comunicabilidade × Avaliação do usuário
+- Mensagens totais × Tempo de resposta
+- Mensagens totais × Repetições
+
+### Observações
+Durante a análise visual, os seguintes padrões foram identificados:
+
+**Comunicabilidade × Respostas incorretas:**  
+Conforme o número de respostas incorretas aumenta, há um crescimento expressivo das instâncias classificadas como **Ruim**, mostrando forte relação entre a quantidade de erros e a baixa comunicabilidade.
+
+**Comunicabilidade × Tempo de resposta:**  
+As classes **Regular** e **Ruim** apresentam distribuições semelhantes, enquanto a classe **Boa** é menos frequente, indicando que tempos de resposta mais altos prejudicam a comunicação.
+
+**Comunicabilidade × Avaliação do usuário:**  
+A classe **Boa** apresenta maior concentração de instâncias, indicando que avaliações mais altas estão fortemente associadas a melhor comunicabilidade. A classe **Ruim** é a menos representada.
+
+**Mensagens totais × Tempo de resposta:**  
+Divergência entre **Regular** e **Ruim**, que se alternam conforme a quantidade de mensagens e tempo de resposta. A classe **Boa** aparece de forma menos influente, sugerindo que conversas longas e lentas estão associadas a problemas de comunicação.
+
+**Mensagens totais × Repetições:**  
+Não há correlação clara, mas **Regular** e **Ruim** aparecem mais frequentemente, sugerindo que interações repetitivas podem estar relacionadas a comunicabilidade problemáticas.
+
+**Observação geral:**  
+Atributos repetidos não foram considerados relevantes para esta análise.
+
+**Síntese:**  
+Os atributos **respostas_incorretas**, **tempo_resposta** e **avaliacao_usuario** são os mais relevantes para distinguir os diferentes níveis de comunicabilidade, reforçando as regras definidas na geração da base de dados.
+
+---
+
+# Etapa 5 — Resultados Obtidos
 
 Após a execução dos experimentos no Weka utilizando a base de dados `Suporte_Tecnico_Chatbot.arff`, foram testados cinco algoritmos de classificação.  
-Os testes seguiram a metodologia de **Hold-Out**, com **66% das instâncias para treino** e **34% para teste**, conforme orientação do professor.
+Os testes seguiram a metodologia de **Hold-Out**, com **66% das instâncias para treino** e **34% para teste**.
 
 Abaixo estão os resultados de acurácia, tempo de execução e observações gerais de desempenho de cada modelo.
 
@@ -45,6 +79,13 @@ O **Naive Bayes** e o **IBk** também tiveram bons resultados, demonstrando cons
 Os modelos **OneR** e **ZeroR** serviram de referência comparativa, confirmando a relevância dos atributos preditivos.
 
 *(Figura X – Comparativo dos algoritmos de classificação no Weka)*
+---
+
+# 6. Análise Crítica dos Resultados em Relação ao Domínio de IHC
+A análise visual e os resultados obtidos evidenciam que erros frequentes, longos tempos de resposta e avaliações baixas estão associados a uma experiência de comunicação ruim, o que é coerente com o domínio de Interação Humano-Computador (IHC).  
+A compreensão desses padrões permite criar sistemas mais responsivos e intuitivos, além de fornecer feedbacks relevantes para melhoria da experiência do usuário.
+
+
 
 
 
