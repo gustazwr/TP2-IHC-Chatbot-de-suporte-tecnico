@@ -81,7 +81,7 @@ Os modelos **OneR** e **ZeroR** serviram de referência comparativa, confirmando
 *(Figura X – Comparativo dos algoritmos de classificação no Weka)*
 ---
 
-# 6. Análise Crítica dos Resultados em Relação ao Domínio de IHC
+# ETAPA 6 — Análise Crítica dos Resultados em Relação ao Domínio de IHC
 A análise visual e os resultados obtidos evidenciam que erros frequentes, longos tempos de resposta e avaliações baixas estão associados a uma experiência de comunicação ruim, o que é coerente com o domínio de Interação Humano-Computador (IHC).  
 A compreensão desses padrões permite criar sistemas mais responsivos e intuitivos, além de fornecer feedbacks relevantes para melhoria da experiência do usuário.
 
