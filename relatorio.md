@@ -66,7 +66,7 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 | Algoritmo | Acurácia (%) | Tempo de Execução (s) | Observações |
 |------------|---------------|------------------------|--------------|
 | **J48 (Árvore de Decisão)** | 98.8372 | 0.06 | Gerou regras semelhantes às definidas manualmente; boa separação entre as classes. |
-| **Naive Bayes** | 100.0 | 0.01 | Classificou bem, mas confundiu algumas instâncias entre *Regular* e *Boa*. |
+| **Naive Bayes** | 100.0 | 0.00 | Classificou bem, mas confundiu algumas instâncias entre *Regular* e *Boa*. |
 | **IBk (k-NN)** | 100.0 | 0.01 | Desempenho estável; resultados próximos ao J48. |
 | **OneR** | 100.0 | 0.01 | Modelo simples baseado em um único atributo; menor precisão. |
 | **ZeroR** | 27.9 | 0.01 | Usado como baseline; sempre escolhe a classe mais frequente. |
