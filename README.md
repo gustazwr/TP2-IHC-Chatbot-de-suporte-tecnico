@@ -7,6 +7,6 @@ Este repositório contém os arquivos e resultados do TP2 da disciplina de Inter
 - relatorio.md → relatório completo
 - modelo/ → árvore de decisão e resultados
 
-Discente: Gustavo Barros  
+Discentes: Gustavo Barros
 Professor: Dr. Andrey Rodrigues  
 Instituição: Universidade Federal do Amazonas (UFAM)
