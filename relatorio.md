@@ -77,6 +77,8 @@ O **Naive Bayes** e o **IBk** também tiveram bons resultados, demonstrando cons
 Os modelos **OneR** e **ZeroR** serviram de referência comparativa, confirmando a relevância dos atributos preditivos.
 
 *(Figura X – Comparativo dos algoritmos de classificação no Weka)*
+<img width="709" height="607" alt="Captura de tela 2025-10-24 144544" src="https://github.com/user-attachments/assets/5087e497-5daa-48d3-a11e-aa396263efc5" />
+
 ---
 
 # ETAPA 6 — Análise Crítica dos Resultados em Relação ao Domínio de IHC
