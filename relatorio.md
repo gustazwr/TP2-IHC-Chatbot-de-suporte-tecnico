@@ -24,7 +24,7 @@ As classes de comunicabilidade são determinadas com base nas seguintes regras:
 - **Regular** → `respostas_incorretas ≤ 4` **ou** `avaliacao_usuario = 3`
 - **Ruim** → `respostas_incorretas > 4` **ou** `avaliacao_usuario ≤ 2`
 
-## 3. Descrição da Base Sintética
+## Descrição da Base Sintética
 
 A base de dados utilizada neste estudo foi **gerada de forma sintética** com o objetivo de simular interações de usuários e permitir a avaliação de algoritmos de classificação sem depender de dados reais. Ela contém **200 instâncias** e os seguintes atributos:
 
