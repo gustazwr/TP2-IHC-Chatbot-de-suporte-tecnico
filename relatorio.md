@@ -24,6 +24,22 @@ As classes de comunicabilidade são determinadas com base nas seguintes regras:
 - **Regular** → `respostas_incorretas ≤ 4` **ou** `avaliacao_usuario = 3`
 - **Ruim** → `respostas_incorretas > 4` **ou** `avaliacao_usuario ≤ 2`
 
+## 3. Descrição da Base Sintética
+
+A base de dados utilizada neste estudo foi **gerada de forma sintética** com o objetivo de simular interações de usuários e permitir a avaliação de algoritmos de classificação sem depender de dados reais. Ela contém **200 instâncias** e os seguintes atributos:
+
+- **respostas_incorretas**: quantidade de respostas incorretas fornecidas pelo usuário em uma interação. Os valores variam de 0 a 10, representando diferentes níveis de desempenho.
+- **tempo_resposta**: tempo médio em segundos que o usuário leva para responder. Os valores variam entre 1 e 30 segundos, simulando respostas rápidas e lentas.
+- **avaliacao_usuario**: nota atribuída ao usuário ao final da interação, variando de 1 a 5. Notas altas refletem boa performance e satisfação.
+- **mensagens_totais**: total de mensagens enviadas durante a interação, variando entre 1 e 50, simulando interações curtas e longas.
+- **repeticoes**: número de mensagens repetidas ou similares dentro da interação, variando de 0 a 5.
+- **comunicabilidade** (classe-alvo): classificada como **Boa**, **Regular** ou **Ruim**, definida com base em regras combinando os atributos preditores (por exemplo, alto número de respostas incorretas e tempo de resposta elevado resulta em comunicabilidade Ruim).
+
+### Justificativa do uso da base sintética
+- Permite testar algoritmos de classificação sem depender de dados reais, garantindo **privacidade e controle total sobre os cenários simulados**.
+- Facilita a geração de situações específicas, como interações com diferentes níveis de erro, tempo de resposta e avaliação, possibilitando analisar o comportamento dos algoritmos em diversas condições.
+- Serve como base inicial para futuros experimentos com dados reais, podendo ser refinada ou ajustada conforme necessidade.
+
 # ETAPA 4 — Descrição dos Experimentos no Weka
 Foi utilizada a aba **Visualize** do Weka para explorar visualmente as relações entre os atributos e a classe-alvo. Os principais cruzamentos analisados foram:
 - Comunicabilidade × Respostas incorretas
