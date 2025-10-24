@@ -76,7 +76,7 @@ O algoritmo **J48** apresentou o melhor desempenho geral, tanto em acurácia qua
 O **Naive Bayes** e o **IBk** também tiveram bons resultados, demonstrando consistência no padrão de classificação.  
 Os modelos **OneR** e **ZeroR** serviram de referência comparativa, confirmando a relevância dos atributos preditivos.
 
-***(Figura X – Comparativo dos algoritmos de classificação no Weka)***
+##(Figura X – Comparativo dos algoritmos de classificação no Weka)##
 <img width="709" height="607" alt="Captura de tela 2025-10-24 144544" src="https://github.com/user-attachments/assets/5087e497-5daa-48d3-a11e-aa396263efc5" />
 
 ---
