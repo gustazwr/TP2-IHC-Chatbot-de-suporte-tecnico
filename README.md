@@ -2,15 +2,6 @@
 
 Este repositório contém os arquivos e resultados do TP2 da disciplina de Interação Humano-Computador.
 
-## Estrutura
-- base_sintetica.arff → base de dados usada no Weka
-- relatorio.md → relatório completo
-- modelo/ → árvore de decisão e resultados
-
-Discentes: Gustavo Barros
-Professor: Dr. Andrey Rodrigues  
-Instituição: Universidade Federal do Amazonas (UFAM)
-
 ## 👥 Integrantes do grupo
 - Luiz Gustavo Barros da Silva — 22551472  
 - Eduardo Tundis Carvalho Vilaça — 22550445  
@@ -20,9 +11,9 @@ Instituição: Universidade Federal do Amazonas (UFAM)
 - Adriano Monteiro Rolim — 22551471
 
 ## 📂 Estrutura do repositório
-- [1 - Modelo](modelo)  
-- [2 - Base sintetica](base_sintetica.arff)  
-- [3 - Relatorio](relatorio.md)
+- [1 - Modelo](modelo) → árvore de decisão e resultados
+- [2 - Base sintetica](base_sintetica.arff) → base de dados usada no Weka
+- [3 - Relatorio](relatorio.md)  → relatório completo
 
 
 ## 📝 Resumo do sistema
