@@ -11,8 +11,6 @@ Discentes: Gustavo Barros
 Professor: Dr. Andrey Rodrigues  
 Instituição: Universidade Federal do Amazonas (UFAM)
 
-# TP2-IHC-Chatbotr-de-suporte-tecnico- trabalho Prático 2 — Interação Humano-Computador — Engenharia de Software
-
 ## 👥 Integrantes do grupo
 - Luiz Gustavo Barros da Silva — 22551472  
 - Eduardo Tundis Carvalho Vilaça — 22550445  
