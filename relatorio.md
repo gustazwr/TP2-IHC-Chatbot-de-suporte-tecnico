@@ -101,6 +101,11 @@ Os modelos **OneR** e **ZeroR** serviram de referência comparativa, confirmando
 A análise visual e os resultados obtidos evidenciam que erros frequentes, longos tempos de resposta e avaliações baixas estão associados a uma experiência de comunicação ruim, o que é coerente com o domínio de Interação Humano-Computador (IHC).  
 A compreensão desses padrões permite criar sistemas mais responsivos e intuitivos, além de fornecer feedbacks relevantes para melhoria da experiência do usuário.
 
+# Conclusão
+O estudo demonstrou que é possível aplicar técnicas de **aprendizado de máquina** para avaliar a **comunicabilidade** de um chatbot de suporte técnico.  
+Os resultados reforçam que atributos como **tempo de resposta**, **número de erros** e **avaliação do usuário** são determinantes para a percepção de qualidade da interação.  
+A análise realizada fornece insights úteis para aprimorar a **experiência do usuário** e a **eficiência comunicacional** de assistentes virtuais.
+
 
 
 
