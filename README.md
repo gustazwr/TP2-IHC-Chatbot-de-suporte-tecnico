@@ -16,7 +16,8 @@ Este repositório contém os arquivos e resultados do TP2 da disciplina de Inter
 - [3 - Relatorio](relatorio.md)  → relatório completo
 
 
-## 📝 Resumo do sistema
+## 📝 Resumo do trabalho
 Breve descrição aqui:  
-> O sistema avaliado é o **Aplicativo IbisPaint x**, sendo um aplicativo de desenho digital para Android e iOS, voltado a artistas iniciantes e avançados. Ele oferece recursos como pincéis personalizáveis, camadas, filtros, modos de mesclagem e gravação do processo de criação em vídeo. O app funciona no modelo freemium, com versão gratuita e opção paga (Prime), sendo uma das ferramentas de ilustração mais populares em dispositivos móveis.
+> O trabalho propõe analisar a interação entre usuários e um chatbot de suporte técnico, aplicando conceitos de Interação Humano-Computador (IHC) e Aprendizado de Máquina (ML).
+A partir de uma base de dados sintética, serão avaliados fatores como tempo de resposta, clareza das mensagens e resolução do problema, com o objetivo de classificar o nível de satisfação do usuário (Alta, Média ou Baixa) por meio de algoritmos de classificação supervisionada no Weka.
 
