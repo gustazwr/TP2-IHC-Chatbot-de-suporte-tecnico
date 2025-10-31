@@ -20,12 +20,10 @@ Instituição: Universidade Federal do Amazonas (UFAM)
 - Adriano Monteiro Rolim — 22551471
 
 ## 📂 Estrutura do repositório
-- [1 - Descrição do sistema](relatorio.md)  
-- [2 - Inspeção de Usabilidade](base_sintetica.arff)  
-- [3 - Teste de Usabilidade](modelo)  
-- [4 - Avaliação de UX](4-Avaliação-UX.md)  
-- [5 - Avaliação de Comunicabilidade](5-Avaliação-Comunicabilidade.md)  
-- [6 - Conclusões](6-Conclusões.md)  
+- [1 - Modelo](modelo)  
+- [2 - Base sintetica](base_sintetica.arff)  
+- [3 - Relatorio](relatorio.md)
+
 
 ## 📝 Resumo do sistema
 Breve descrição aqui:  
