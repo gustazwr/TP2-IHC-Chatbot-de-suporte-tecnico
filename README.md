@@ -20,9 +20,9 @@ Instituição: Universidade Federal do Amazonas (UFAM)
 - Adriano Monteiro Rolim — 22551471
 
 ## 📂 Estrutura do repositório
-- [1 - Descrição do sistema](1-descrição-sistema.md)  
-- [2 - Inspeção de Usabilidade](2-Inspeção-Usabilidade.md)  
-- [3 - Teste de Usabilidade](3-Teste-Usabilidade.md)  
+- [1 - Descrição do sistema](relatorio.md)  
+- [2 - Inspeção de Usabilidade](base_sintetica.arff)  
+- [3 - Teste de Usabilidade](modelo)  
 - [4 - Avaliação de UX](4-Avaliação-UX.md)  
 - [5 - Avaliação de Comunicabilidade](5-Avaliação-Comunicabilidade.md)  
 - [6 - Conclusões](6-Conclusões.md)  
