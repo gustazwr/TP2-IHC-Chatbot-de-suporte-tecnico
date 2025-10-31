@@ -1,0 +1,50 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.ZeroR 
+Relation:     Suporte_Tecnico_Chatbot
+Instances:    252
+Attributes:   6
+              respostas_incorretas
+              tempo_resposta
+              repeticoes
+              avaliacao_usuario
+              mensagens_totais
+              comunicabilidade
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: Boa
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          24               27.907  %
+Incorrectly Classified Instances        62               72.093  %
+Kappa statistic                          0     
+Mean absolute error                      0.4451
+Root mean squared error                  0.4721
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances               86     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,384     Boa
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,337     Regular
+                 1,000    1,000    0,279      1,000    0,436      ?        0,500     0,279     Ruim
+Weighted Avg.    0,279    0,279    ?          0,279    ?          ?        0,500     0,339     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  0  0 33 |  a = Boa
+  0  0 29 |  b = Regular
+  0  0 24 |  c = Ruim
+

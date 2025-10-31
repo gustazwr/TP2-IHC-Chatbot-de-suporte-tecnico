@@ -1,0 +1,54 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.OneR -B 6
+Relation:     Suporte_Tecnico_Chatbot
+Instances:    252
+Attributes:   6
+              respostas_incorretas
+              tempo_resposta
+              repeticoes
+              avaliacao_usuario
+              mensagens_totais
+              comunicabilidade
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+respostas_incorretas:
+	< 2.5	-> Boa
+	< 4.5	-> Regular
+	>= 4.5	-> Ruim
+(251/252 instances correct)
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          86              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances               86     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Boa
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Regular
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Ruim
+Weighted Avg.    1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 33  0  0 |  a = Boa
+  0 29  0 |  b = Regular
+  0  0 24 |  c = Ruim

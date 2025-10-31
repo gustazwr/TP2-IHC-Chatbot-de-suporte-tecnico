@@ -1,0 +1,61 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Suporte_Tecnico_Chatbot
+Instances:    252
+Attributes:   6
+              respostas_incorretas
+              tempo_resposta
+              repeticoes
+              avaliacao_usuario
+              mensagens_totais
+              comunicabilidade
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+avaliacao_usuario <= 2: Ruim (80.0)
+avaliacao_usuario > 2
+|   respostas_incorretas <= 2: Boa (87.0)
+|   respostas_incorretas > 2: Regular (85.0/1.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          85               98.8372 %
+Incorrectly Classified Instances         1                1.1628 %
+Kappa statistic                          0.9824
+Mean absolute error                      0.0078
+Root mean squared error                  0.088 
+Relative absolute error                  1.7417 %
+Root relative squared error             18.6486 %
+Total Number of Instances               86     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Boa
+                 1,000    0,018    0,967      1,000    0,983      0,975    0,991     0,967     Regular
+                 0,958    0,000    1,000      0,958    0,979      0,971    0,979     0,970     Ruim
+Weighted Avg.    0,988    0,006    0,989      0,988    0,988      0,983    0,991     0,980     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 33  0  0 |  a = Boa
+  0 29  0 |  b = Regular
+  0  1 23 |  c = Ruim
+

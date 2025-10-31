@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Suporte_Tecnico_Chatbot
+Instances:    252
+Attributes:   6
+              respostas_incorretas
+              tempo_resposta
+              repeticoes
+              avaliacao_usuario
+              mensagens_totais
+              comunicabilidade
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                         Class
+Attribute                  Boa Regular    Ruim
+                        (0.35)  (0.33)  (0.32)
+===============================================
+respostas_incorretas
+  mean                   1.0345     3.5  6.4198
+  std. dev.              0.8087     0.5  1.3228
+  weight sum                 87      84      81
+  precision                   1       1       1
+
+tempo_resposta
+  mean                   2.0543  5.8587  5.7119
+  std. dev.              0.5766  1.2294   1.156
+  weight sum                 87      84      81
+  precision              0.0457  0.0457  0.0457
+
+repeticoes
+  mean                   0.8161     1.5  1.5556
+  std. dev.              0.7509   1.118  1.0999
+  weight sum                 87      84      81
+  precision                   1       1       1
+
+avaliacao_usuario
+  mean                   4.5172    3.75  1.5062
+  std. dev.              0.4997  0.8292  0.5241
+  weight sum                 87      84      81
+  precision                   1       1       1
+
+mensagens_totais
+  mean                  14.2069 14.9286 15.5556
+  std. dev.               5.567  5.9036  5.6459
+  weight sum                 87      84      81
+  precision                   1       1       1
+
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          86              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0016
+Root mean squared error                  0.0056
+Relative absolute error                  0.352  %
+Root relative squared error              1.1868 %
+Total Number of Instances               86     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Boa
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Regular
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Ruim
+Weighted Avg.    1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 33  0  0 |  a = Boa
+  0 29  0 |  b = Regular
+  0  0 24 |  c = Ruim
