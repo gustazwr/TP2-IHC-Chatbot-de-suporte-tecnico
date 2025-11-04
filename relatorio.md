@@ -106,19 +106,15 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 ### -J48
 <img width="267" height="158" alt="Captura de tela 2025-11-03 211415" src="https://github.com/user-attachments/assets/a16ab812-4018-4b43-906f-0c43a5823b1c" />
 
-
+---
 ### -Naive Bayes
-=== Confusion Matrix ===
+<img width="260" height="156" alt="Captura de tela 2025-11-03 211524" src="https://github.com/user-attachments/assets/0e20b428-d823-47e8-a989-7b8fc37094b6" />
 
-  a   b   c   <-- classified as  
- 87 |  0 |  0 |  a = Boa  
-  0  | 84 |  0 |  b = Regular  
-  1  |  0 | 80 |  c = Ruim  
-
+---
 ### -Ibk (k-NN)
 <img width="259" height="157" alt="Captura de tela 2025-11-03 211327" src="https://github.com/user-attachments/assets/cf216afc-77a1-4825-85cc-02ae7ede3139" />
   
-
+---
 ### -OneR
 === Confusion Matrix ===
 
