@@ -116,13 +116,9 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
   
 ---
 ### -OneR
-=== Confusion Matrix ===
+<img width="256" height="150" alt="Captura de tela 2025-11-03 211637" src="https://github.com/user-attachments/assets/89bfaa1c-144e-424b-bf78-00dd67d4dc01" />
 
-  a   b   c   <-- classified as  
- 87 |  0 |  0 |  a = Boa  
-  0  | 84 |  0 |  b = Regular  
-  1  |  0 | 80 |  c = Ruim  
-  
+---  
 ### -ZeroR
 === Confusion Matrix ===  
 
