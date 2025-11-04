@@ -54,31 +54,29 @@ Durante a análise visual, os seguintes padrões foram identificados:
 **Comunicabilidade × Respostas incorretas:**  
 Conforme o número de respostas incorretas aumenta, há um crescimento expressivo das instâncias classificadas como **Ruim**, mostrando forte relação entre a quantidade de erros e a baixa comunicabilidade.
 
-<img width="1916" height="1027" alt="Captura de tela 2025-11-03 203932" src="https://github.com/user-attachments/assets/fae54aeb-c539-48d0-b837-f5bf1c63e778" />
 
 ---
 **Comunicabilidade × Tempo de resposta:**  
 As classes **Regular** e **Ruim** apresentam distribuições semelhantes, enquanto a classe **Boa** é menos frequente, indicando que tempos de resposta mais altos prejudicam a comunicação.
 
-<img width="1909" height="1026" alt="image" src="https://github.com/user-attachments/assets/a5525153-f6c9-483f-8369-5c9bcad9d42d" />
+
 
 ---
 **Comunicabilidade × Avaliação do usuário:**  
 A classe **Boa** apresenta maior concentração de instâncias, indicando que avaliações mais altas estão fortemente associadas a melhor comunicabilidade. A classe **Ruim** é a menos representada.
 
-<img width="1908" height="1025" alt="Captura de tela 2025-11-03 204232" src="https://github.com/user-attachments/assets/ad256f09-5cd2-4e8c-a137-d2a5215c19b8" />
+
 
 ---
 **Mensagens totais × Tempo de resposta:**  
 Divergência entre **Regular** e **Ruim**, que se alternam conforme a quantidade de mensagens e tempo de resposta. A classe **Boa** aparece de forma menos influente, sugerindo que conversas longas e lentas estão associadas a problemas de comunicação.
 
-<img width="968" height="679" alt="Captura de tela 2025-11-03 204339" src="https://github.com/user-attachments/assets/9dceab69-572c-41ff-a7ba-89d7375471d2" />
+
 
 ---
 **Mensagens totais × Repetições:**  
 Não há correlação clara, mas **Regular** e **Ruim** aparecem mais frequentemente, sugerindo que interações repetitivas podem estar relacionadas a comunicabilidade problemáticas. 
 
-<img width="970" height="672" alt="Captura de tela 2025-11-03 204542" src="https://github.com/user-attachments/assets/0ddf849c-75ae-4737-9c81-db0fbcc6ef9e" />
 
 ---
 **Observação geral:**  
