@@ -122,10 +122,10 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 ### -Ibk (k-NN)
 === Confusion Matrix ===
 
-  a  b  c   <-- classified as
- 33  0  0 |  a = Boa
-  0 29  0 |  b = Regular
-  0  0 24 |  c = Ruim
+  a  b  c   <-- classified as  
+ 33  0  0 |  a = Boa  
+  0 29  0 |  b = Regular  
+  0  0 24 |  c = Ruim  
 
 ### -OneR
 === Confusion Matrix ===
