@@ -104,12 +104,8 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 
 ## Matrizes de Confusão
 ### -J48
-=== Confusion Matrix ===  
+<img width="267" height="158" alt="Captura de tela 2025-11-03 211415" src="https://github.com/user-attachments/assets/a16ab812-4018-4b43-906f-0c43a5823b1c" />
 
-  a   b   c   <-- classified as  
- 87 |  0 |  0 |  a = Boa  
-  0  | 84 |  0 |  b = Regular  
-  1  |  1 | 79 |  c = Ruim  
 
 ### -Naive Bayes
 === Confusion Matrix ===
