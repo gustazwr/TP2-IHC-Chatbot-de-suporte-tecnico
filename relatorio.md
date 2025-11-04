@@ -91,10 +91,11 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 ### J48
 === Confusion Matrix ===  
 
-  a  b  c   <-- classified as  
- 87  0  0 |  a = Boa  
-  0 84  0 |  b = Regular  
-  1  0 80 |  c = Ruim  
+  a   b   c   <-- classified as  
+ 87   0   0 |  a = Boa  
+  0  84   0 |  b = Regular  
+  1   1  79 |  c = Ruim  
+
 
 **Resumo:**
 O algoritmo **J48** apresentou o melhor desempenho geral, tanto em acurácia quanto na coerência das regras geradas.  
