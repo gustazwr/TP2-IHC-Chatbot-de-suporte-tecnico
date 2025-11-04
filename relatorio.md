@@ -87,12 +87,12 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 | **OneR** | 100.0% | 0.01 | É um modelo simples, baseado em um único atributo. |
 | **ZeroR** | 27.907% | 0.00 | Serve apenas como baseline (modelo de referência). |
 
-=== Confusion Matrix ===
+=== Confusion Matrix ===  
 
-  a  b  c   <-- classified as
- 87  0  0 |  a = Boa
-  0 84  0 |  b = Regular
-  1  0 80 |  c = Ruim
+  a  b  c   <-- classified as  
+ 87  0  0 |  a = Boa  
+  0 84  0 |  b = Regular  
+  1  0 80 |  c = Ruim  
 
 **Resumo:**
 O algoritmo **J48** apresentou o melhor desempenho geral, tanto em acurácia quanto na coerência das regras geradas.  
