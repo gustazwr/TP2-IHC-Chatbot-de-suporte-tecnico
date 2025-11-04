@@ -54,17 +54,28 @@ Durante a análise visual, os seguintes padrões foram identificados:
 **Comunicabilidade × Respostas incorretas:**  
 Conforme o número de respostas incorretas aumenta, há um crescimento expressivo das instâncias classificadas como **Ruim**, mostrando forte relação entre a quantidade de erros e a baixa comunicabilidade.
 
+<img width="1916" height="1027" alt="Captura de tela 2025-11-03 203932" src="https://github.com/user-attachments/assets/fae54aeb-c539-48d0-b837-f5bf1c63e778" />
+
+
 **Comunicabilidade × Tempo de resposta:**  
 As classes **Regular** e **Ruim** apresentam distribuições semelhantes, enquanto a classe **Boa** é menos frequente, indicando que tempos de resposta mais altos prejudicam a comunicação.
+
+<img width="709" height="607" alt="Captura de tela 2025-10-24 144544" src="https://github.com/user-attachments/assets/5087e497-5daa-48d3-a11e-aa396263efc5" />
 
 **Comunicabilidade × Avaliação do usuário:**  
 A classe **Boa** apresenta maior concentração de instâncias, indicando que avaliações mais altas estão fortemente associadas a melhor comunicabilidade. A classe **Ruim** é a menos representada.
 
+<img width="709" height="607" alt="Captura de tela 2025-10-24 144544" src="https://github.com/user-attachments/assets/5087e497-5daa-48d3-a11e-aa396263efc5" />
+
 **Mensagens totais × Tempo de resposta:**  
 Divergência entre **Regular** e **Ruim**, que se alternam conforme a quantidade de mensagens e tempo de resposta. A classe **Boa** aparece de forma menos influente, sugerindo que conversas longas e lentas estão associadas a problemas de comunicação.
 
+<img width="709" height="607" alt="Captura de tela 2025-10-24 144544" src="https://github.com/user-attachments/assets/5087e497-5daa-48d3-a11e-aa396263efc5" />
+
 **Mensagens totais × Repetições:**  
-Não há correlação clara, mas **Regular** e **Ruim** aparecem mais frequentemente, sugerindo que interações repetitivas podem estar relacionadas a comunicabilidade problemáticas.
+Não há correlação clara, mas **Regular** e **Ruim** aparecem mais frequentemente, sugerindo que interações repetitivas podem estar relacionadas a comunicabilidade problemáticas. 
+
+<img width="709" height="607" alt="Captura de tela 2025-10-24 144544" src="https://github.com/user-attachments/assets/5087e497-5daa-48d3-a11e-aa396263efc5" />
 
 **Observação geral:**  
 Atributos repetidos não foram considerados relevantes para esta análise.
