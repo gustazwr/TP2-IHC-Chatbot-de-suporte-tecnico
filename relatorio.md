@@ -120,12 +120,8 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
   1  |  0 | 80 |  c = Ruim  
 
 ### -Ibk (k-NN)
-=== Confusion Matrix ===
-
-  a  b  c   <-- classified as  
- 33  0  0 |  a = Boa  
-  0 29  0 |  b = Regular  
-  0  0 24 |  c = Ruim  
+<img width="259" height="157" alt="Captura de tela 2025-11-03 211327" src="https://github.com/user-attachments/assets/cf216afc-77a1-4825-85cc-02ae7ede3139" />
+  
 
 ### -OneR
 === Confusion Matrix ===
