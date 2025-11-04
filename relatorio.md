@@ -26,7 +26,7 @@ As classes de comunicabilidade são determinadas com base nas seguintes regras:
 
 # Descrição da Base Sintética
 
-A base de dados utilizada neste estudo foi **gerada de forma sintética** com o objetivo de simular interações de usuários e permitir a avaliação de algoritmos de classificação sem depender de dados reais. Ela contém **200 instâncias** e os seguintes atributos:
+A base de dados utilizada neste estudo foi **gerada de forma sintética** com o objetivo de simular interações de usuários e permitir a avaliação de algoritmos de classificação sem depender de dados reais. Ela contém **252 instâncias** e os seguintes atributos:
 
 - **respostas_incorretas**: quantidade de respostas incorretas fornecidas pelo usuário em uma interação. Os valores variam de 0 a 10, representando diferentes níveis de desempenho.
 - **tempo_resposta**: tempo médio em segundos que o usuário leva para responder. Os valores variam entre 1 e 30 segundos, simulando respostas rápidas e lentas.
