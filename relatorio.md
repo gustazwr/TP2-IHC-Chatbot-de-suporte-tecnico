@@ -104,6 +104,31 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
   0  84   0 |  b = Regular  
   1   0  80 |  c = Ruim  
 
+### Ibk (k-NN)
+=== Confusion Matrix ===
+
+  a   b   c   <-- classified as  
+ 87   0   0 |  a = Boa  
+  1  83   0 |  b = Regular  
+  0   1  80 |  c = Ruim 
+
+### OneR
+=== Confusion Matrix ===
+
+  a   b   c   <-- classified as  
+ 87   0   0 |  a = Boa  
+  0  84   0 |  b = Regular  
+  1   0  80 |  c = Ruim  
+  
+### ZeroR
+=== Confusion Matrix ===  
+
+  a  b  c   <-- classified as  
+ 87  0  0 |  a = Boa  
+ 84  0  0 |  b = Regular  
+ 81  0  0 |  c = Ruim  
+
+
 
 **Resumo:**
 O algoritmo **J48** apresentou o melhor desempenho geral, tanto em acurácia quanto na coerência das regras geradas.  
