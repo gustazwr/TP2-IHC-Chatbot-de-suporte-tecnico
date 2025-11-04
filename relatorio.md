@@ -88,7 +88,7 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 | **ZeroR** | 27.907% | 0.00 | Serve apenas como baseline (modelo de referência). |
 
 ## Matrizes de Confusão
-### J48
+### -J48
 === Confusion Matrix ===  
 
   a   b   c   <-- classified as  
@@ -96,7 +96,7 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
   0  84   0 |  b = Regular  
   1   1  79 |  c = Ruim  
 
-### Naive Bayes
+### -Naive Bayes
 === Confusion Matrix ===
 
   a   b   c   <-- classified as  
@@ -104,7 +104,7 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
   0  84   0 |  b = Regular  
   1   0  80 |  c = Ruim  
 
-### Ibk (k-NN)
+### -Ibk (k-NN)
 === Confusion Matrix ===
 
   a   b   c   <-- classified as  
@@ -112,7 +112,7 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
   1  83   0 |  b = Regular  
   0   1  80 |  c = Ruim 
 
-### OneR
+### -OneR
 === Confusion Matrix ===
 
   a   b   c   <-- classified as  
@@ -120,7 +120,7 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
   0  84   0 |  b = Regular  
   1   0  80 |  c = Ruim  
   
-### ZeroR
+### -ZeroR
 === Confusion Matrix ===  
 
   a  b  c   <-- classified as  
