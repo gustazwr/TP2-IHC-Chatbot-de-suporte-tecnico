@@ -67,17 +67,21 @@ As classes **Regular** e **Ruim** apresentam distribuições semelhantes, enquan
 **Comunicabilidade × Avaliação do usuário:**  
 A classe **Boa** apresenta maior concentração de instâncias, indicando que avaliações mais altas estão fortemente associadas a melhor comunicabilidade. A classe **Ruim** é a menos representada.
 
+<img width="972" height="675" alt="Captura de tela 2025-11-03 212654" src="https://github.com/user-attachments/assets/f75af5bd-d7c0-48cb-8b0f-0aed01e326e1" />
 
 
 ---
 **Mensagens totais × Tempo de resposta:**  
 Divergência entre **Regular** e **Ruim**, que se alternam conforme a quantidade de mensagens e tempo de resposta. A classe **Boa** aparece de forma menos influente, sugerindo que conversas longas e lentas estão associadas a problemas de comunicação.
 
+<img width="965" height="687" alt="Captura de tela 2025-11-03 212740" src="https://github.com/user-attachments/assets/7c122b77-466a-47ca-860c-673a33ab5ca4" />
 
 
 ---
 **Mensagens totais × Repetições:**  
 Não há correlação clara, mas **Regular** e **Ruim** aparecem mais frequentemente, sugerindo que interações repetitivas podem estar relacionadas a comunicabilidade problemáticas. 
+
+<img width="967" height="686" alt="Captura de tela 2025-11-03 212827" src="https://github.com/user-attachments/assets/38064c01-1e76-4467-a7f1-d2be9541f8e8" />
 
 
 ---
