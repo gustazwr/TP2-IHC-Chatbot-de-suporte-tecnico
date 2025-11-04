@@ -54,6 +54,7 @@ Durante a análise visual, os seguintes padrões foram identificados:
 **Comunicabilidade × Respostas incorretas:**  
 Conforme o número de respostas incorretas aumenta, há um crescimento expressivo das instâncias classificadas como **Ruim**, mostrando forte relação entre a quantidade de erros e a baixa comunicabilidade.
 
+<img width="973" height="682" alt="Captura de tela 2025-11-03 212519" src="https://github.com/user-attachments/assets/8975ec38-38d1-4ef8-9504-26ef7aedffd3" />
 
 ---
 **Comunicabilidade × Tempo de resposta:**  
