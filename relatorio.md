@@ -87,6 +87,8 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 | **OneR** | 100.0% | 0.01 | É um modelo simples, baseado em um único atributo. |
 | **ZeroR** | 27.907% | 0.00 | Serve apenas como baseline (modelo de referência). |
 
+## Matrizes de Confusão
+### J48
 === Confusion Matrix ===  
 
   a  b  c   <-- classified as  
