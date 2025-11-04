@@ -60,6 +60,7 @@ Conforme o número de respostas incorretas aumenta, há um crescimento expressiv
 **Comunicabilidade × Tempo de resposta:**  
 As classes **Regular** e **Ruim** apresentam distribuições semelhantes, enquanto a classe **Boa** é menos frequente, indicando que tempos de resposta mais altos prejudicam a comunicação.
 
+<img width="965" height="692" alt="Captura de tela 2025-11-03 212610" src="https://github.com/user-attachments/assets/1835713e-a8a3-4100-9363-e8311182da18" />
 
 
 ---
