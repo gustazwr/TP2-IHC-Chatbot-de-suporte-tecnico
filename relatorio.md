@@ -128,10 +128,9 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 
 ---
 
-**Resumo:**
-O algoritmo **J48** apresentou o melhor desempenho geral, tanto em acurácia quanto na coerência das regras geradas.  
-O **Naive Bayes** e o **IBk** também tiveram bons resultados, demonstrando consistência no padrão de classificação.  
-Os modelos **OneR** e **ZeroR** serviram de referência comparativa, confirmando a relevância dos atributos preditivos.
+**Resumo Comparativo:**
+O comparativo mostra que Naive Bayes, IBk (k-NN) e OneR alcançaram 100% de acurácia, demonstrando excelente desempenho na classificação da base de dados, embora o Naive Bayes tenha apresentado pequenas confusões entre as classes “Regular” e “Boa”. O J48 (Árvore de Decisão) teve uma acurácia ligeiramente inferior (98,84%), mas se destacou por gerar regras claras e interpretáveis, facilitando a compreensão do processo de decisão. Já o ZeroR, usado como modelo de referência , obteve apenas 27,91% de acurácia, confirmando sua função limitada de comparação.
+Em relação ao tempo de execução, todos os algoritmos foram muito rápidos, com destaque para o Naive Bayes (0,00s) e ZeroR (0,00s), seguidos por IBk e OneR (0,01s), e o J48 com 0,06s, o mais lento, porém ainda eficiente.
 
 ## (– Relação de atributos e classe no Weka) 
 <img width="709" height="607" alt="Captura de tela 2025-10-24 144544" src="https://github.com/user-attachments/assets/5087e497-5daa-48d3-a11e-aa396263efc5" />
