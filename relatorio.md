@@ -108,7 +108,7 @@ Abaixo estão os resultados de acurácia, tempo de execução e observações ge
 === Confusion Matrix ===
 
   a   b   c   <-- classified as  
- 87 |  0 |  0 |  a = Boa  
+ 87|  0 |  0 |  a = Boa  
   1 | 83 |  0 |  b = Regular  
   0 |  1 | 80 |  c = Ruim 
 
